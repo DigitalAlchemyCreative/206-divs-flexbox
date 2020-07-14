@@ -109,10 +109,24 @@ body {
   font-size: 1em;
   height: 100%;
   background: #e2c3c8;
-  height: 100%;
 }
 
-.wrapper {
+.header {
+    font-size: 2em;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1em;
+}
+
+.about {
+    font-size: 1em;
+    display: flex;
+    margin-bottom: 1.5em;
+    justify-content: flex-start;
+}
+
+.flex-wrapper {
   font-weight: lighter;
   display: flex;
   flex-flow: row wrap;
@@ -130,6 +144,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2em 0 1em 0;
 }
 
 
@@ -227,7 +248,7 @@ body {
     }
 
     .div-1, .div-2 {
-      border-right: 1px solid #555;
+      border-right: 1px solid lightseagreen;
       padding-right: 30px;
     }
 }
@@ -235,7 +256,7 @@ body {
 @media all and (max-width: 620px) {
     .wrapper {
         flex-flow: column nowrap;
-        border-bottom: 1px solid #555;
+        border-bottom: 1px solid lightseagreen;
     }
 }
 
